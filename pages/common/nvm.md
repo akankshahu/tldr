@@ -3,7 +3,7 @@
 > Install, uninstall or switch between Node.js versions.
 > Supports version numbers like "12.8" or "v16.13.1", and labels like "stable", "system", etc.
 > See also: `asdf`.
-> More information: <https://github.com/creationix/nvm>.
+> More information: <https://github.com/nvm-sh/nvm>.
 
 - Install a specific version of Node.js:
 
@@ -16,6 +16,10 @@
 - Set the default Node.js version:
 
 `nvm alias default {{node_version}}`
+
+- Set the default Node.js version (Fish shell - `nvm.fish` plugin):
+
+`set nvm_default_version {{node_version}}`
 
 - List all available Node.js versions and highlight the default one:
 
